@@ -198,8 +198,6 @@ struct ContentView: View {
         isActive = true
         loadData()
         prepareHaptics()
-        print(self.cards)
-        print(self.cards.count - 1)
     }
     
     func loadData() {
